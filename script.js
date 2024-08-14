@@ -16,10 +16,8 @@ function getHumanChoice() {
 }
 
 function playGame() {
-
     let humanScore = 0;
-    let computerScore = 0;   
-
+    let computerScore = 0;
 
     function playRound(humanChoice, computerChoice) {        
 
@@ -53,12 +51,8 @@ function playGame() {
             console.log("You win! Scissors beats paper!")
         } else {
             console.log("It's a tie!");
-        }
-                
+        }                
     }
-
-    let humanSelection = "";
-    let computerSelection = "";
 
     playRound(getHumanChoice(), getComputerChoice());
     playRound(getHumanChoice(), getComputerChoice());
