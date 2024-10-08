@@ -29,13 +29,6 @@ container.appendChild(resultDiv)
 
 // Functionality
 
-
-function getHumanChoice() {
-	let humanInput = prompt('Rock, paper or scissors?')
-	let lowerCaseHumanInput = humanInput.toLowerCase()
-	return lowerCaseHumanInput
-}
-
 function getComputerChoice() {
 	const choices = ['rock', 'paper', 'scissors']
 	const randomIndex = Math.floor(Math.random() * choices.length)
